@@ -1,0 +1,273 @@
+/* 
+
+Farben: #2B2C2E /  #9FA2A7 / #27282A /  #848689 / #3D3E41 / #fff */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: 'Graphik-Medium';
+    src: url(../font/Graphik-Medium.ttf) format("truetype");}
+
+@font-face{
+    font-family: 'Graphik-Regular';
+    src: url(../font/Graphik-Regular.woff) format("woff");
+}
+@font-face{
+    font-family: 'Theinhardt-Lt';
+    src: url(../font/Theinhardt-Lt.woff) format("woff");
+}@font-face{
+
+
+    font-family: 'TiemposHeadline-Semibold';
+    src: url(../font/TiemposHeadline-Semibold.woff) format("woff");
+}
+
+
+
+.sectin-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    color: #2B2C2E ;
+    align-items: center;
+    
+    
+}
+.sectin-nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-left: 3%;
+    list-style: none;
+    font-family: 'Graphik-Regular';
+    font-size: 15px;
+}
+.logo{
+    
+    
+    margin-right: 10%;
+    font-size: 30px;
+
+}
+.sectin-nav a{
+    
+    margin-right: 5%;
+    text-decoration: none;
+    border: 1px solid  #3D3E41;
+    padding: .5% 3%;
+    font-family: 'Graphik-Medium';
+    color:#2B2C2E ;
+    border-radius: 5px;
+    transition: all 1s;
+}
+.sectin-nav a:hover{
+    color: #fff;
+    background-color: #27282A;
+}
+.Get-your h1{
+    text-align: center;
+    font-family: 'Graphik-Regular';
+    font-size: 45px;
+    margin-top: 10%;
+}
+.div-get{
+    background: url(../img/home_hero.png) center / 90% no-repeat;
+    height: 70vh;
+}
+.article-1{
+    display: flex;
+    
+    margin-top: 8%;
+}
+.we-will{
+    
+    width: 38%;
+    font-family: 'Graphik-Medium';
+    font-size: 20px;
+    margin-left: 10%;
+    line-height: 3.5vh;
+
+}
+.flat{
+    
+    margin-left: 10%;
+    font-family: 'Theinhardt-Lt';
+    width: 10%;
+}
+.flat h2{
+    font-size: 5rem;
+}
+.flat p{
+    
+    color:#9FA2A7  ;
+    font-size: 20px;
+}
+
+.img-Deliverables img{
+    width: 80%;
+    margin-left: 10%; 
+    
+}
+.sec-Deliverables{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+.article-2 h1{
+    font-family: 'TiemposHeadline-Semibold';
+    font-size: 50px;
+    margin-bottom: 15%;
+  
+}
+.article-2{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 40%;
+    margin-top: 5%;
+}
+
+.A-picture h2{
+    font-family: 'Graphik-Medium';
+    margin-bottom: 5%;
+    font-size: 25px;
+}
+.A-picture p{
+    font-family: 'Theinhardt-Lt';
+    font-size: 20px;
+    margin-bottom: 5%;
+    color: #848689;
+}
+.Design-Report h2{
+    font-family: 'Graphik-Medium';
+    margin-bottom: 5%;
+    font-size: 25px;
+}
+.Design-Report p{
+    font-family: 'Theinhardt-Lt';
+    font-size: 20px;
+    margin-bottom: 5%;
+    color: #848689;
+}
+.Ways-to-Redesign h2{
+    font-family: 'Graphik-Medium';
+    margin-bottom: 5%;
+    font-size: 25px;
+}
+.Ways-to-Redesign p{
+    font-family: 'Theinhardt-Lt';
+    font-size: 20px;
+    margin-bottom: 5%;
+    color: #848689;
+}
+
+.sec-How-it{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    background-color: #f1f1f4;
+    margin-right: 5%;
+    margin-left: 5%;
+    
+
+}
+.article-3 img{
+    width: 80%;
+}
+.div-How-it{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.div-How-it h1{
+    font-family: 'TiemposHeadline-Semibold';
+    font-size: 4rem;
+    margin-bottom: 5%;
+}
+ol{
+    margin-left: 5%;
+    font-family: 'Theinhardt-Lt';
+    font-size: 20px;
+    margin-bottom: 3%;
+    width: 60%;
+    color: #848689;
+}
+.div-How-it p{
+    
+    font-family: 'Theinhardt-Lt';
+    font-size: 20px;
+    margin-bottom: 3%;
+    width: 62%;
+    color: #848689;
+}
+
+.Critique h1{
+    text-align: center;
+    font-family: 'TiemposHeadline-Semibold';
+    font-size: 40px;
+    margin-top: 10%;
+
+}
+.p-Critique{
+    color:#848689;
+    font-family: 'Theinhardt-Lt';
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+.article-4{
+    background: url(../img/28.png) center / 95% no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+
+}
+.article-4 img{
+    height: 35vh;
+    margin-right: 2%;
+    margin-top: 30%;
+}
+.article-4 p{
+    color:#848689;
+    font-family: 'Theinhardt-Lt';
+    font-size: 20px;
+    margin-top: 35%;
+    margin-left: 15%;
+    line-height: 45px;
+}
+.Critique {
+    border-bottom: 3px solid #f1f1f4;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+footer h1{
+    text-align: center;
+    font-family: 'TiemposHeadline-Semibold';
+    font-size: 45px;
+    margin-top: 5%;
+
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+footer p{
+    color:#848689;
+    font-family: 'Graphik-Medium';
+    margin-top: 15%;
+    font-size: 20;
+
+}
+footer span{
+    color: #3D3E41;
+    font-size: 25px;
+    text-decoration: underline;
+}
